@@ -7,5 +7,5 @@ int main(int argc, char *argv[])
 	QApplication app(argc, argv);
 	TodoAppOnQt window;
     window.show(); 
-    return app.exec();
+	return app.exec(); // Event loop start
 }
